@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>さくら台デンタルクリニック | 駅前の歯科医院</title>
+<style>
+  body {
+    font-family: Arial, "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    color: #333333;
+    background-color: #fcfbf9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #e2ebe4;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .site-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2e5a44;
+  }
+  .header-cta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .btn-reserve {
+    background-color: #4a7c59;
+    color: #ffffff;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .hero {
+    background-color: #f0f4f1;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .hero h1 {
+    color: #2e5a44;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  section {
+    background: #ffffff;
+    border: 1px solid #e2ebe4;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+  h2 {
+    color: #2e5a44;
+    font-size: 18px;
+    border-bottom: 2px solid #a3c9ad;
+    padding-bottom: 8px;
+    margin-top: 0;
+  }
+  /* 診療時間テーブル */
+  table.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+  }
+  table.schedule th, table.schedule td {
+    border: 1px solid #dcdcdc;
+    padding: 10px 5px;
+  }
+  table.schedule th {
+    background-color: #f4f7f4;
+    color: #2e5a44;
+  }
+  .notice {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 8px;
+  }
+  .btn-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4a7c59;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  footer {
+    background-color: #2e5a44;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="site-title">さくら台デンタルクリニック</div>
+  <div class="header-cta">
+    <span>TEL: 03-XXXX-XXXX</span>
+    <a href="#reserve" class="btn-reserve">Web予約（前日まで）</a>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>お口の健康から、安心と笑顔の毎日を</h1>
+  <p>駅前医療ビル2階 / 患者様お一人おひとりに寄り添った丁寧なカウンセリング</p>
+</div>
+
+<div class="container">
+
+  <!-- 診療時間・休診日 -->
+  <section>
+    <h2>診療時間・休診日のご案内</h2>
+    <p>当院は予約優先制です。診療時間をご確認のうえご来院ください。</p>
+    <table class="schedule">
+      <thead>
+        <tr>
+          <th>診療時間</th>
+          <th>月</th>
+          <th>火</th>
+          <th>水</th>
+          <th>木</th>
+          <th>金</th>
+          <th>土</th>
+          <th>日/祝</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>09:30 - 13:00</td>
+          <td>○</td>
+          <td>○</td>
+          <td>○</td>
+          <td>○</td>
+          <td>○</td>
+          <td>○</td>
+          <td>休</td>
+        </tr>
+        <tr>
+          <td>14:30 - 19:00</td>
+          <td>○</td>
+          <td>○</td>
+          <td>○</td>
+          <td>休</td>
+          <td>○</td>
+          <td>休</td>
+          <td>休</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="notice">※木曜午後・土曜午後・日曜・祝日は休診日となります。<br>※Webからのご予約は【前日まで】受付可能です。当日のご予約はお電話にてお問い合わせください。</p>
+  </section>
+
+  <!-- アクセス・駐車場 -->
+  <section>
+    <h2>アクセス・提携駐車場のご案内</h2>
+    <p><strong>所在地：</strong>東京都○○区さくら台1-2-3 さくら台駅前ビル2F（駅徒歩1分）</p>
+    <p><strong>提携駐車場：</strong>ビル隣接のコインパーキングをご利用いただけます。<br>受診された患者様には<strong>【30分無料サービス券】</strong>をお渡ししております。お会計時に駐車券をご提示ください。</p>
+  </section>
+
+  <!-- 院長紹介（概要） -->
+  <section>
+    <h2>院長ご挨拶</h2>
+    <p>「丁寧で分かりやすい説明と、安心して通える環境づくり」を大切に、さくら台の地で開院して9年目を迎えました。お口に関する小さなお悩みでも、お気軽にご相談ください。</p>
+    <p><strong>院長：藤井 雅彦</strong></p>
+    <a href="./doctor.html" class="btn-link">＞ 院長の経歴・診療方針はこちら</a>
+  </section>
+
+  <!-- 診療メニュー案内 -->
+  <section>
+    <h2>診療メニュー</h2>
+    <p>当院では、保険診療を中心に幅広いお悩みに対応しております。</p>
+    <ul>
+      <li>一般歯科・虫歯治療</li>
+      <li>歯周病治療・予防歯科</li>
+      <li>小児歯科</li>
+    </ul>
+    <p style="margin-top: 15px;">また、患者様の多様な選択肢に対応するため、以下の自費診療（保険外診療）にも対応しております。</p>
+    <ul>
+      <li>矯正歯科</li>
+      <li>インプラント</li>
+      <li>ホワイトニング</li>
+    </ul>
+    <p class="notice">※自費診療の詳しい費用・治療期間・リスクや注意点については、詳細ページにて丁寧にご説明しております。</p>
+    <a href="./menu.html" class="btn-link">＞ 診療メニュー・費用・リスクの詳細はこちら</a>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; さくら台デンタルクリニック All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
