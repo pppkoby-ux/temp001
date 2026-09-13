@@ -102,6 +102,25 @@
     font-weight: bold;
   }
   
+  /* マップ用スタイル（追加） */
+  .map-container {
+    margin-top: 15px;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 のアスペクト比 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 6px;
+  }
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
   /* 院長紹介レイアウト（院長写真を少し大きく調整） */
   .doctor-profile {
     display: flex;
@@ -217,6 +236,12 @@
     <h2>アクセス・提携駐車場のご案内</h2>
     <p><strong>所在地：</strong>大阪府難波駅前ビル2F（駅徒歩1分）</p>
     <p><strong>提携駐車場：</strong>ビル隣接のコインパーキングをご利用いただけます。<br>受診された患者様には<strong>【30分無料サービス券】</strong>をお渡ししております。お会計時に駐車券をご提示ください。</p>
+    
+    <!-- ▼ Map埋め込みスペース ▼ -->
+    <div class="map-container">
+      <!-- ここにGoogle Map等で取得した <iframe> タグをそのまま貼ってください -->
+    </div>
+    <!-- ▲ Map埋め込みスペース ▲ -->
   </section>
 
   <!-- 院長紹介（院長写真を少し大きく調整） -->
